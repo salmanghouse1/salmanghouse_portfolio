@@ -1,0 +1,80 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+     :root {
+        --header-color-from-left-text-bg: #333846;
+        --header-color-from-left-bg-text: rgb(24, 199, 176);
+    }
+    
+    header {
+        background: var(--header-color-from-left-text-bg);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header div {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    header div h1 {
+        background: var(--header-color-from-left-bg-text);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 200px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    header div img {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    header nav {}
+    
+    header nav ul {
+        list-style-type: none;
+    }
+    
+    header nav ul li {
+        display: inline;
+        text-decoration: none;
+        color: var(--header-color-from-left-bg-text);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    header nav ul li a {
+        text-decoration: none;
+        color: var(--header-color-from-left-bg-text);
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 3px solid var(--header-color-from-left-bg-text);
+        font-size: 20px;
+    }
+    
+    #subheading {
+        background: url('/assets/images/Header-Background.png');
+        background-size: cover;
+        height: 250px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    #subheading h2 {
+        background-color: var(--header-color-from-left-bg-text);
+        height: 50px;
+        padding: 0 1em 0 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0 2em 2em 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
