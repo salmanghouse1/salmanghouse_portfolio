@@ -44,7 +44,7 @@
                     display: block;
                     position: absolute;
                     top: 5px;
-                    right: -80px;
+                    left: 65vw;
                     z-index: 1;
                     -webkit-user-select: none;
                     user-select: none;
@@ -94,7 +94,7 @@
                 }
                 #menu {
                     position: relative;
-                    right: 50px;
+                    right: 90px;
                     margin: -100px 0 0 0;
                     padding: 50px;
                     padding-top: 125px;
@@ -147,8 +147,9 @@
                     align-items: center;
                     justify-content: center;
                 }
-                /* page content article */
-                article {
+                /* page content article added contact me section*/
+                article,
+                .contact-me-section {
                     background: rgb(243, 237, 237);
                     display: flex;
                     flex-wrap: wrap;
