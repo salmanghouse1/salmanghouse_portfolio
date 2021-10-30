@@ -24,3 +24,10 @@ WHEN I resize the page or view the site on various screens and devices✅
 THEN I am presented with a responsive layout that adapts to my viewport✅
 
 
+## Details and Links
+
+[github url: https://github.com/salmanghouse1/salmanghouse_portfolio/tree/feature/contact](htt0ps://github.com/salmanghouse1/salmanghouse_portfolio/tree/feature/contact)
+
+[deployed website url:https://salmanghouse1.github.io/salmanghouse_portfolio/](https://salmanghouse1.github.io/salmanghouse_portfolio/)
+
+
