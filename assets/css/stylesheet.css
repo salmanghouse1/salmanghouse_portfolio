@@ -169,7 +169,7 @@ html {
     }
     /* Subheading */
     .subheading {
-        background: url('/assets/images/Header-Background.png');
+        background: url('../images/Header-Background.png');
         background-size: cover;
         height: 250px;
         justify-content: flex-end;
@@ -221,16 +221,16 @@ html {
     }
     .work-sample:nth-of-type(1) {
         flex: 300px;
-        background: url('/assets/images/work-sample-1.png');
+        background: url('../images/work-sample-1.png');
     }
     .work-sample:nth-of-type(2) {
-        background: url('/assets/images/work-sample-2.png');
+        background: url('..//images/work-sample-2.png');
     }
     .work-sample:nth-of-type(3) {
-        background: url('/assets/images/work-sample-3.png');
+        background: url('../images/work-sample-3.png');
     }
     .work-sample:nth-of-type(4) {
-        background: url('/assets/images/work-sample-4.png');
+        background: url('../images/work-sample-4.png');
     }
     .work-sample .work-sample-heading {
         background: var(--header-color-from-left-bg-text);
