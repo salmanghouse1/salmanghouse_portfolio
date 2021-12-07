@@ -81,12 +81,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 )
 
-$(window).on("resize", function() {
-        if ($(window).width() < 960) {
-            alert("a")
-        }
-    })
-    // code
+// $(window).on("resize", function() {
+//         if ($(window).width() < 960) {
+//             alert("a")
+//         }
+//     })
+// code
 
 
 // occupationArrayEachLetter1 = [];
